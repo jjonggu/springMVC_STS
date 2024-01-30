@@ -1,0 +1,10 @@
+package com.company.hello.member;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MemberDao {
+	
+	private Map<String, MemberVo> memberDB = new HashMap<String, MemberVo>();
+
+}

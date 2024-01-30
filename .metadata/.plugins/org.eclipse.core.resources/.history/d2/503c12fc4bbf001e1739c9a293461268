@@ -1,0 +1,27 @@
+package com.office.library.admin.member;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class AdminMemberService {
+	
+	// 회원가입 실패 (데이터베이스 INSERT 실패)
+	final static public int ADMIN_ACCOUNT_ALREADY_EXIST = 0;
+	
+	// 회원가입 성공
+	final static public int ADMIN_ACCOUNT_CREATE_SUCCESS = 1;
+	
+	// 회원가입 실패 (중복 아이디)
+	final static public int ADMIN_ACCOUNT_CREATE_FAIL = -1;
+	
+	@Autowired
+	AdminMemberDao adminMemberDao;
+	
+	public int createAccountConfirm(AdminMemberVo adminMemberVo) {
+		System.out.println("[AdminMemberService] createAccountConfirm()");
+		
+		return 0;
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.company.hello.member;
+
+
+public class MemberVo {
+	
+	String m_id;
+	String m_pw;
+	String m_mail;
+
+}

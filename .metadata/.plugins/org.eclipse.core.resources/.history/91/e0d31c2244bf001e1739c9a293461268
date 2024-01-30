@@ -1,0 +1,8 @@
+package com.office.library.admin;
+
+
+@Controller
+@RequestMapping("/admin")
+public class AdminHomeController {
+
+}

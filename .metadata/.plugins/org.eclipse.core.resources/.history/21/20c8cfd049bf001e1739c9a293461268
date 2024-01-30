@@ -1,0 +1,12 @@
+package com.office.library.admin.member;
+
+
+public class AdminMemberDao {
+	
+	int a_m_no;
+	int a_m_approval;
+	int a_m_id;
+	int a_m_pw;
+	int a_m_name;
+
+}
