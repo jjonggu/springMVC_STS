@@ -1,0 +1,18 @@
+package com.office.library.admin.member;
+
+public class AdminMemberVo {
+
+	int a_m_no;			// 관리자 번호
+	int a_m_approval;	// 최고 관리자 승인 여부
+	String a_m_id;	    // 관리자 아아디
+	String a_m_pw;		// 관리자 비밀번호
+	String a_m_name;	// 관리자 이름
+	String a_m_gender;
+	String a_m_part;
+	String a_m_mail;
+	String a_m_phone;
+	String a_m_reg_date;
+	String a_m_mod_date;
+	
+
+}

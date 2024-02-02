@@ -34,19 +34,19 @@
 			
 				<form action="<c:url value='/admin/member/createAccountConfirm' />" name="create_account_form" method="post">
 					
-					<input type="text" name="a_m_id" placeholder="INPUT ADMIN ID."> <br>
-					<input type="password" name="a_m_pw" placeholder="INPUT ADMIN PW."> <br>
-					<input type="password" name="a_m_pw_again" placeholder="INPUT ADMIN PW AGAIN."> <br>
-					<input type="text" name="a_m_name" placeholder="INPUT ADMIN NAME."> <br>
+					<input type="text" name="a_m_id" placeholder="아이디 입력"> <br>
+					<input type="password" name="a_m_pw" placeholder="비밀번호 입력"> <br>
+					<input type="password" name="a_m_pw_again" placeholder="비밀번호 재입력"> <br>
+					<input type="text" name="a_m_name" placeholder="관리자 이름"> <br>
 					<select name="a_m_gender">
-						<option value="">SELECET ADMIN GENDER.</option>
+						<option value="">성별 선택</option>
 						<option value="M">Man</option>
 						<option value="W">Woman</option>
 					</select> <br>
-					<input type="text" name="a_m_part" placeholder="INPUT ADMIN PART."> <br>
-					<input type="text" name="a_m_position" placeholder="INPUT ADMIN POSITION."> <br>
-					<input type="email" name="a_m_mail" placeholder="INPUT ADMIN MAIL." ><br>
-					<input type="text" name="a_m_phone" placeholder="INPUT ADMIN PHONE."> <br>
+					<input type="text" name="a_m_part" placeholder="관리자 근무 부서"> <br>
+					<input type="text" name="a_m_position" placeholder="관리자 업무"> <br>
+					<input type="email" name="a_m_mail" placeholder="관리자 이메일" ><br>
+					<input type="text" name="a_m_phone" placeholder="관리자 전화번호"> <br>
 					<input type="button" value="create account" onclick="createAccountForm();"> 
 					<input type="reset" value="reset">
 					

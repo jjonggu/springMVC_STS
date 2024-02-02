@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="form"/>
+		<item key="selection" value="selectAdmin"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="form"/>
-			<item value="FORM"/>
-			<item value="configur"/>
-			<item value="config"/>
-			<item value="signInedMember"/>
-			<item value="signInConfirm"/>
-			<item value="signInConfirm&quot;"/>
-			<item value="servlet-mapping"/>
-			<item value="3.1.1"/>
-			<item value="&lt;source&gt;"/>
-			<item value="&lt;source"/>
-			<item value="&lt;sor"/>
-			<item value="&lt;"/>
-			<item value="&lt;java-version&gt;"/>
+			<item value="selectAdmin"/>
+			<item value="loginConfirm"/>
+			<item value="insertAdminAccount"/>
+			<item value="INSERT INTO tbl_admin_membera_m_approval"/>
+			<item value="super admin"/>
+			<item value="admin user"/>
+			<item value="size() &gt; 0"/>
+			<item value="size "/>
+			<item value="size &gt; 0"/>
+			<item value="adminMemberVos.size()"/>
+			<item value="a_m_approval"/>
+			<item value="am"/>
+			<item value="Error"/>
+			<item value="error"/>
+			<item value="matches"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -32,5 +33,9 @@
 		<item key="DIALOG_WIDTH" value="288"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="724"/>
+		<item key="DIALOG_Y_ORIGIN" value="392"/>
 	</section>
 </section>

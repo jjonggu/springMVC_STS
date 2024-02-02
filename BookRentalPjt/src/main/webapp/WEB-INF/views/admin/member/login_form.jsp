@@ -26,19 +26,17 @@
 			
 			<div class="word">
 			
-				<h3>LOGIN FORM</h3>
+				<h3>로그인 페이지</h3>
 				
 			</div>
 			
 			<div class="login_form">
 			
 				<form action="<c:url value='/admin/member/loginConfirm' />" name="login_form" method="post">
-					
-					<input type="text"		name="a_m_id" 		placeholder="INPUT ADMIN ID."> <br>
-					<input type="password"	name="a_m_pw" 		placeholder="INPUT ADMIN PW."> <br>
+					<input type="text"		name="a_m_id" 		placeholder="아이디를 입력해주세요."> <br>
+					<input type="password"	name="a_m_pw" 		placeholder="비밀번호를 입력해주세요."> <br>
 					<input type="button"	value="login" onclick="loginForm();"> 
 					<input type="reset"		value="reset">
-					
 				</form>
 				
 			</div>
